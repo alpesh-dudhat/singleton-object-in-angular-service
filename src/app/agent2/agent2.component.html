@@ -1,0 +1,6 @@
+<p>
+  <input type="text" #typeddata />
+  <button (click)="book(typeddata.value)">Book2</button>
+</p>
+
+<div *ngFor="let data of ticket">Booked by agent two: {{ data }}</div>

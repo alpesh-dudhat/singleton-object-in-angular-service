@@ -1,0 +1,7 @@
+<p>agent1 works!</p>
+<p>
+  <input type="text" #typeddata />
+  <button (click)="book(typeddata.value)">Book</button>
+</p>
+
+<div *ngFor="let data of ticket">Booked by agent one: {{ data }}</div>
